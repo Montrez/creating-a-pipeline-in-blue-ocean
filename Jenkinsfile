@@ -12,7 +12,7 @@ pipeline {
         sh 'npm install'
       }
     }
-    stage('') {
+    stage('Test') {
       environment {
         CI = 'true'
       }
